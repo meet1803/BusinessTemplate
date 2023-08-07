@@ -1,6 +1,7 @@
 <script>
     import NavBar from "./NavBar.svelte";
     import logo from "../images/logo-main.png";
+    import img1 from "../images/headerr-1.jpg";
 
     const NavList = [
         {name: "Page" , link: "/page"},
@@ -26,4 +27,20 @@
     
 
 </header>
+<div class="max-w-lg">
+    <img src={img1} alt="image1">
+</div>
+
+<style>
+    header{
+        background-color: darkslategrey;
+    }
+    img{
+        height: 5%;
+        width: 5%;
+    }
+    div{
+        width: 50%;
+    }
+</style>
 
