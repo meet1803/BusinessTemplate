@@ -1,11 +1,11 @@
 <script>
-	export let name = 'Home';
-	export let link = '/';
+	export let name = '';
+	export let link = '';
 </script>
 
 <a
-	class="  hover:bg-gray-200 py-2 px-4 rounded-md transition-all duration-300 group flex items-center gap-1"
+	class="py-2 px-4 rounded-md group lg:flex hidden items-center "
 	href={link}
 >
-	<span class=" font-medium">{name}</span>
+	<span class=" font-normal text-left">{name}</span>
 </a>
